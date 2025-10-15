@@ -1,0 +1,20 @@
+{
+"manifest_version": 3,
+"name": "Gemini Quick Prompt",
+"version": "0.1",
+"description": "Send quick prompts to the Gemini API from a popup (prototype).",
+"action": {
+"default_popup": "popup.html",
+"default_title": "Gemini Quick Prompt",
+"default_icon": "icon.png"
+},
+"permissions": [
+"activeTab"
+],
+"host_permissions": [
+"https://generativelanguage.googleapis.com/*"
+],
+"background": {
+"service_worker": "service_worker.js"
+}
+}
