@@ -11,8 +11,7 @@ Go to Google AI Studio
  → copy your Gemini API key.
 
 Paste it inside:
-
-const GEMINI_API_KEY = "ADD YOUR OWN API KEY"; // use single coloum
+const GEMINI_API_KEY = 'ADD YOUR OWN API KEY'; // in service_worker.js
 
 
 Open Chrome → go to chrome://extensions → enable Developer mode → click Load unpacked → select your extension folder.
