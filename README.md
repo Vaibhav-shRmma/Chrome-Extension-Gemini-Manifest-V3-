@@ -12,7 +12,7 @@ Go to Google AI Studio
 
 Paste it inside:
 
-const GEMINI_API_KEY = "your own api key"; // use single coloum
+const GEMINI_API_KEY = "ADD YOUR OWN API KEY"; // use single coloum
 
 
 Open Chrome → go to chrome://extensions → enable Developer mode → click Load unpacked → select your extension folder.
