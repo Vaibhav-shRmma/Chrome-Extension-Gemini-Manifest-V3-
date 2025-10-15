@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyDFwDITUktmCOqVyybj3gB_wGXGrDsuLro'; 
+const GEMINI_API_KEY = 'ADD YOUR OWN API KEY'; 
 
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', () => self.clients.claim());
@@ -50,4 +50,5 @@ sendResponse({ error: err.message });
 })();
 return true; 
 }
+
 });
